@@ -3,17 +3,17 @@ pipeline {
   stages {
     stage('START') {
       steps {
-        echo 'Hello World Robert Wedd bla bla bla'
+        echo 'Hello World 1'
       }
     }
     stage('Next') {
       steps {
-        echo 'Hello World '
+        echo 'Hello World 2'
       }
     }
     stage('Next1') {
       steps {
-        echo 'Hello World sss'
+        echo 'Hello World 3'
       }
     }
   }
